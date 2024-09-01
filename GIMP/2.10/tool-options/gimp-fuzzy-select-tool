@@ -1,0 +1,7 @@
+# GIMP gimp-fuzzy-select-tool options
+
+(operation add)
+(threshold 38.299999999999997)
+(select-criterion g)
+
+# end of gimp-fuzzy-select-tool options

@@ -1,0 +1,2 @@
+for clangd: https://stackoverflow.com/questions/62624352/can-i-use-gcc-compiler-and-clangd-language-server
+            https://www.reddit.com/r/neovim/comments/1c1aoe9/how_to_disable_format_on_save_in_clangd/

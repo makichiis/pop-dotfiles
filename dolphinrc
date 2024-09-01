@@ -1,0 +1,45 @@
+MenuBar=Disabled
+
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+Version=201
+ViewPropsTimestamp=2024,7,15,19,56,58.727
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+eDP DP-1-1 HDMI-1-0 Height 1920x1080=610
+eDP DP-1-1 HDMI-1-0 Width 1920x1080=493
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP DP-1-0 Height 1080x1920=652
+eDP DP-1-0 Height 1920x1080=619
+eDP DP-1-0 Width 1080x1920=800
+eDP DP-1-0 Width 1920x1080=720
+eDP DP-1-0 XPosition 1080x1920=151
+eDP DP-1-0 XPosition 1920x1080=1623
+eDP DP-1-0 YPosition 1080x1920=1150
+eDP DP-1-0 YPosition 1920x1080=1013
+eDP DP-1-1 HDMI-1-0 Height 1920x1080=766
+eDP DP-1-1 HDMI-1-0 Width 1920x1080=1104
+eDP DP-1-1 HDMI-1-0 Window-Maximized 1920x1080=true
+eDP DP-1-1 HDMI-1-0 XPosition 1920x1080=2434
+eDP DP-1-1 HDMI-1-0 YPosition 1920x1080=154
+eDP-1-0 DP-1 HDMI-0 Height 1920x1080=888
+eDP-1-0 DP-1 HDMI-0 Width 1920x1080=1320
+eDP-1-0 DP-1 HDMI-0 XPosition 1920x1080=318
+eDP-1-0 DP-1 HDMI-0 YPosition 1920x1080=110
+
+[PreviewSettings]
+Plugins=ffmpegthumbs,exrthumbnail,appimagethumbnail,kritathumbnail,comicbookthumbnail,djvuthumbnail,directorythumbnail,gsthumbnail,rawthumbnail,svgthumbnail,audiothumbnail,jpegthumbnail,ebookthumbnail,blenderthumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,imagethumbnail
+
+[Search]
+Location=Everywhere

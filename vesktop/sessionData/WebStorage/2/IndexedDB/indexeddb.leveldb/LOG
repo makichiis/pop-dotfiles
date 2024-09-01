@@ -1,0 +1,15 @@
+2024/08/29-00:39:40.818 1e49 Reusing MANIFEST /home/sevansdev/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/08/29-00:39:40.818 1e49 Recovering log #47
+2024/08/29-00:39:40.819 1e49 Reusing old log /home/sevansdev/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/000047.log 
+2024/08/29-00:44:50.770 1e4a Level-0 table #52: started
+2024/08/29-00:44:50.774 1e4a Level-0 table #52: 27187 bytes OK
+2024/08/29-00:44:50.779 1e4a Delete type=0 #47
+2024/08/29-00:44:50.779 1e4a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/08/29-00:44:50.780 1e4a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x90G{\xca\x19yB\x00\x03\x00\x00\x00\x00\x00@l@' @ 6270 : 1
+2024/08/29-00:44:50.780 1e4a Compacting 1@1 + 1@2 files
+2024/08/29-00:44:50.783 1e4a Generated table #53@1: 62 keys, 1388 bytes
+2024/08/29-00:44:50.784 1e4a Compacted 1@1 + 1@2 files => 1388 bytes
+2024/08/29-00:44:50.788 1e4a compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/29-00:44:50.789 1e4a Delete type=2 #52
+2024/08/29-00:44:50.789 1e4a Delete type=2 #49
+2024/08/29-00:44:50.789 1e4a Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x90G{\xca\x19yB\x00\x03\x00\x00\x00\x00\x00@l@' @ 6270 : 1 .. (end); will stop at (end)

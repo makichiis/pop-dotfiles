@@ -1,0 +1,1 @@
+{ "uploadDirs": [], "ports": { "app": 4000, "lookup": 4001, "viewer": 4002 } }

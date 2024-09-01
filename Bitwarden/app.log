@@ -1,0 +1,16 @@
+[2024-06-18 16:02:26.462] [info]  No state version found, assuming empty state.
+[2024-06-18 16:02:28.095] [info]  State version: 65
+[2024-06-18 16:02:32.112] [info]  Checking for update
+[2024-06-18 16:02:32.119] [info]  Generated new staging user ID: 160727a3-8840-5839-aef4-a34572a1c600
+[2024-06-18 16:02:32.407] [info]  Update for version 2024.6.1 is not available (latest version: 2024.6.1, downgrade is disallowed).
+[2024-06-18 16:11:42.018] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarH00iac/resources/app.asar/main.js:89972:36)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarH00iac/resources/app.asar/main.js:89734:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/tmp/.mount_BitwarH00iac/resources/app.asar/main.js:89730:12)
+    at WindowMain.updateWindowState (/tmp/.mount_BitwarH00iac/resources/app.asar/main.js:89967:16)
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarH00iac/resources/app.asar/main.js:89902:28)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarH00iac/resources/app.asar/main.js:89734:71
+    at new Promise (<anonymous>)

@@ -1,0 +1,539 @@
+2024-07-25 15:48:43 Arduino IDE 2.3.2
+2024-07-25 15:48:43 Checking for frontend application configuration customizations. Module path: /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/electron-main.js, destination 'package.json': /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/package.json
+2024-07-25 15:48:43 Setting 'theia.frontend.config.appVersion' application configuration value to: "2.3.2" (type of string)
+2024-07-25 15:48:43 Setting 'theia.frontend.config.cliVersion' application configuration value to: "0.35.3" (type of string)
+2024-07-25 15:48:43 Setting 'theia.frontend.config.buildDate' application configuration value to: "2024-02-20T09:54:08.669Z" (type of string)
+2024-07-25 15:48:43 Frontend application configuration after modifications: {"applicationName":"Arduino IDE","defaultTheme":{"light":"arduino-theme","dark":"arduino-theme-dark"},"defaultIconTheme":"none","electron":{"windowOptions":{}},"defaultLocale":"","validatePreferencesSchema":false,"preferences":{"window.title":"${rootName}${activeEditorShort}${appName}","files.autoSave":"afterDelay","editor.minimap.enabled":false,"editor.tabSize":2,"editor.scrollBeyondLastLine":false,"editor.quickSuggestions":{"other":false,"comments":false,"strings":false},"editor.maxTokenizationLineLength":500,"editor.bracketPairColorization.enabled":false,"breadcrumbs.enabled":false,"workbench.tree.renderIndentGuides":"none","explorer.compactFolders":false},"appVersion":"2.3.2","cliVersion":"0.35.3","buildDate":"2024-02-20T09:54:08.669Z"}
+2024-07-25 15:48:43 Starting backend process. PID: 9063
+2024-07-25 15:48:44 Using browser-only version of superagent in non-browser environment
+2024-07-25 15:48:44 Configuration directory URI: 'file:///home/sevansdev/.arduinoIDE'
+2024-07-25 15:48:44 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2024-07-25 15:48:44 2024-07-25T20:48:44.209Z root INFO Backend Object.initialize: 6.0 ms [Finished 0.469 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.210Z root INFO Backend Object.configure: 5.1 ms [Finished 0.469 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.210Z root INFO Backend s.onStart: 3.1 ms [Finished 0.469 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.210Z root INFO Backend s.configure: 0.5 ms [Finished 0.500 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.211Z root INFO Backend d.onStart: 0.3 ms [Finished 0.500 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.212Z root INFO Backend d.configure: 0.1 ms [Finished 0.500 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.213Z root INFO Backend d.initialize: 30.8 ms [Finished 0.500 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.213Z root INFO Backend c.onStart: 0.4 ms [Finished 0.500 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.213Z root INFO Backend a.configure: 0.5 ms [Finished 0.501 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.215Z config INFO >>> Initializing CLI configuration...
+2024-07-25 15:48:44 2024-07-25T20:48:44.215Z root INFO Backend c.initialize: 0.4 ms [Finished 0.501 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.215Z root INFO Backend R.onStart: 0.7 ms [Finished 0.502 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z config INFO Loading CLI configuration from /home/sevansdev/.arduinoIDE/arduino-cli.yaml...
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z daemon INFO Starting daemon from /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/resources/arduino-cli...
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend a.initialize: 0.7 ms [Finished 0.503 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend w.onStart: 1.3 ms [Finished 0.503 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend r.configure: 1.9 ms [Finished 0.504 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z discovery-log INFO start
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z discovery-log INFO start new deferred
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend d.initialize: 0.4 ms [Finished 0.504 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend y.onStart: 2.0 ms [Finished 0.506 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend r.configure: 1.7 ms [Finished 0.506 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend a.onStart: 0.4 ms [Finished 0.507 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend h.configure: 0.3 ms [Finished 0.507 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend s.configure: 0.1 ms [Finished 0.507 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.216Z root INFO Backend l.configure: 0.1 ms [Finished 0.507 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.218Z root INFO Theia app listening on http://127.0.0.1:39467.
+2024-07-25 15:48:44 2024-07-25T20:48:44.218Z root INFO Finished starting backend application: 2.2 ms [Finished 0.509 s after backend start]
+2024-07-25 15:48:44 2024-07-25T20:48:44.237Z root WARN The local plugin referenced by local-dir:/home/sevansdev/.arduinoIDE/plugins does not exist.
+2024-07-25 15:48:44 2024-07-25T20:48:44.237Z root WARN The local plugin referenced by local-dir:/home/sevansdev/.arduinoIDE/extensions does not exist.
+2024-07-25 15:48:44 2024-07-25T20:48:44.251Z daemon INFO time="2024-07-25T15:48:44-05:00" level=info msg="Config file not found, using default values"
+time="2024-07-25T15:48:44-05:00" level=info msg="arduino-cli version 0.35.3"
+time="2024-07-25T15:48:44-05:00" level=info msg="Executing `arduino-cli daemon`"
+Daemon is now listening on 127.0.0.1:36319
+{"IP":"127.0.0.1","Port":"36319"}
+2024-07-25 15:48:44 2024-07-25T20:48:44.251Z daemon INFO Daemon is running.
+2024-07-25 15:48:44 2024-07-25T20:48:44.258Z config INFO Loading CLI configuration from /home/sevansdev/.arduinoIDE/arduino-cli.yaml...
+2024-07-25 15:48:44 2024-07-25T20:48:44.268Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":[]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"data":"/home/sevansdev/.arduino15","downloads":"/home/sevansdev/.arduino15/staging","user":"/home/sevansdev/Arduino"},"library":{"enable_unsafe_install":false},"logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2024-07-25 15:48:44 2024-07-25T20:48:44.268Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2024-07-25 15:48:44 2024-07-25T20:48:44.268Z config INFO Loaded the CLI configuration.
+2024-07-25 15:48:44 2024-07-25T20:48:44.275Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/sevansdev/.arduino15","sketchDirUri":"file:///home/sevansdev/Arduino","additionalUrls":[],"network":"none","locale":"en"}
+2024-07-25 15:48:44 2024-07-25T20:48:44.275Z config INFO Validating the CLI configuration...
+2024-07-25 15:48:44 2024-07-25T20:48:44.275Z config INFO The CLI config is valid.
+2024-07-25 15:48:44 2024-07-25T20:48:44.275Z config INFO <<< Initialized the CLI configuration.
+2024-07-25 15:48:44 2024-07-25T20:48:44.276Z daemon INFO time="2024-07-25T15:48:44-05:00" level=info msg="Updating libraries index"
+time="2024-07-25T15:48:44-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-07-25 15:48:44 2024-07-25T20:48:44.283Z root INFO Resolve plugins list: 67.2 ms [Finished 0.573 s after backend start]
+2024-07-25 15:48:45 2024-07-25T20:48:45.038Z root INFO Deploy plugins list: 67.2 ms [Finished 1.329 s after backend start]
+2024-07-25 15:48:45 Opening channel for service path '/services/electron-window'.
+2024-07-25 15:48:45 Opening channel for service path '/services/ide-updater'.
+2024-07-25 15:48:45 2024-07-25T20:48:45.780Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 250.7 ms [Finished 1.397 s after frontend start]
+2024-07-25 15:48:45 2024-07-25T20:48:45.786Z root WARN A command editor.action.toggleStickyScroll is already registered.
+2024-07-25 15:48:46 2024-07-25T20:48:46.160Z daemon INFO time="2024-07-25T15:48:46-05:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2024-07-25 15:48:46 2024-07-25T20:48:46.160Z daemon INFO time="2024-07-25T15:48:46-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2024-07-25 15:48:46 2024-07-25T20:48:46.413Z daemon INFO time="2024-07-25T15:48:46-05:00" level=info msg="Checking signature" index=/home/sevansdev/.arduino15/package_index.json signatureFile=/home/sevansdev/.arduino15/package_index.json.sig trusted=true
+2024-07-25 15:48:46 2024-07-25T20:48:46.414Z daemon INFO time="2024-07-25T15:48:46-05:00" level=info msg="Loading hardware from: /home/sevansdev/.arduino15/packages"
+2024-07-25 15:48:46 2024-07-25T20:48:46.414Z daemon INFO time="2024-07-25T15:48:46-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.4.1_Linux_64bit.tar.gz"
+2024-07-25 15:48:46 2024-07-25T20:48:46.721Z daemon INFO time="2024-07-25T15:48:46-05:00" level=info msg="Installing tool" Tool="builtin:serial-discovery@1.4.1"
+2024-07-25 15:48:46 2024-07-25T20:48:46.761Z daemon INFO time="2024-07-25T15:48:46-05:00" level=info msg="Skipping tool configuration." Tool="builtin:serial-discovery@1.4.1"
+time="2024-07-25T15:48:46-05:00" level=info msg="Tool installed" Tool="builtin:serial-discovery@1.4.1"
+2024-07-25 15:48:46 2024-07-25T20:48:46.762Z daemon INFO time="2024-07-25T15:48:46-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/monitor/serial-monitor/serial-monitor_v0.14.1_Linux_64bit.tar.gz"
+2024-07-25 15:48:47 2024-07-25T20:48:47.290Z daemon INFO time="2024-07-25T15:48:47-05:00" level=info msg="Installing tool" Tool="builtin:serial-monitor@0.14.1"
+2024-07-25 15:48:47 2024-07-25T20:48:47.347Z daemon INFO time="2024-07-25T15:48:47-05:00" level=info msg="Skipping tool configuration." Tool="builtin:serial-monitor@0.14.1"
+time="2024-07-25T15:48:47-05:00" level=info msg="Tool installed" Tool="builtin:serial-monitor@0.14.1"
+2024-07-25 15:48:47 2024-07-25T20:48:47.347Z daemon INFO time="2024-07-25T15:48:47-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/tools/ctags-5.8-arduino11-pm-x86_64-pc-linux-gnu.tar.bz2"
+2024-07-25 15:48:47 2024-07-25T20:48:47.702Z daemon INFO time="2024-07-25T15:48:47-05:00" level=info msg="Installing tool" Tool="builtin:ctags@5.8-arduino11"
+2024-07-25 15:48:47 2024-07-25T20:48:47.746Z daemon INFO time="2024-07-25T15:48:47-05:00" level=info msg="Skipping tool configuration." Tool="builtin:ctags@5.8-arduino11"
+time="2024-07-25T15:48:47-05:00" level=info msg="Tool installed" Tool="builtin:ctags@5.8-arduino11"
+2024-07-25 15:48:47 2024-07-25T20:48:47.746Z daemon INFO time="2024-07-25T15:48:47-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_Linux_64bit.tar.gz"
+2024-07-25 15:48:48 2024-07-25T20:48:48.038Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="Installing tool" Tool="builtin:dfu-discovery@0.1.2"
+2024-07-25 15:48:48 2024-07-25T20:48:48.067Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="Skipping tool configuration." Tool="builtin:dfu-discovery@0.1.2"
+time="2024-07-25T15:48:48-05:00" level=info msg="Tool installed" Tool="builtin:dfu-discovery@0.1.2"
+time="2024-07-25T15:48:48-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.9_Linux_64bit.tar.gz"
+2024-07-25 15:48:48 2024-07-25T20:48:48.546Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="Installing tool" Tool="builtin:mdns-discovery@1.0.9"
+2024-07-25 15:48:48 2024-07-25T20:48:48.585Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="Skipping tool configuration." Tool="builtin:mdns-discovery@1.0.9"
+time="2024-07-25T15:48:48-05:00" level=info msg="Tool installed" Tool="builtin:mdns-discovery@1.0.9"
+2024-07-25 15:48:48 2024-07-25T20:48:48.585Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="Loading tools from dir: /home/sevansdev/.arduino15/packages/builtin/tools"
+time="2024-07-25T15:48:48-05:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2024-07-25T15:48:48-05:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+time="2024-07-25T15:48:48-05:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+time="2024-07-25T15:48:48-05:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.1"
+time="2024-07-25T15:48:48-05:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.14.1"
+2024-07-25 15:48:48 2024-07-25T20:48:48.586Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="Loading libraries index file" index=/home/sevansdev/.arduino15/library_index.json
+2024-07-25 15:48:48 2024-07-25T20:48:48.824Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/.arduino15/libraries location=ide
+time="2024-07-25T15:48:48-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/Arduino/libraries location=user
+2024-07-25 15:48:48 2024-07-25T20:48:48.832Z discovery-log INFO start resolved watching
+2024-07-25 15:48:48 2024-07-25T20:48:48.833Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="starting discovery builtin:mdns-discovery process"
+2024-07-25 15:48:48 2024-07-25T20:48:48.833Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="starting discovery builtin:serial-discovery process"
+2024-07-25 15:48:48 2024-07-25T20:48:48.836Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2024-07-25T15:48:48-05:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:serial-discovery"
+time="2024-07-25T15:48:48-05:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2024-07-25T15:48:48-05:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:mdns-discovery"
+time="2024-07-25T15:48:48-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-07-25T15:48:48-05:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+time="2024-07-25T15:48:48-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+time="2024-07-25T15:48:48-05:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-07-25T15:48:48-05:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+2024-07-25 15:48:48 2024-07-25T20:48:48.838Z daemon INFO time="2024-07-25T15:48:48-05:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+2024-07-25 15:48:48 2024-07-25T20:48:48.854Z root WARN Frontend c.onStart took longer than the expected maximum 100 milliseconds: 2969.6 ms [Finished 4.498 s after frontend start]
+2024-07-25 15:48:48 2024-07-25T20:48:48.892Z root INFO Start frontend contributions: 3429.1 ms [Finished 4.506 s after frontend start]
+2024-07-25 15:48:48 2024-07-25T20:48:48.892Z root INFO Changed application state from 'init' to 'started_contributions'.
+2024-07-25 15:48:48 2024-07-25T20:48:48.901Z root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2024-07-25 15:48:48 2024-07-25T20:48:48.902Z root INFO >>> Restoring the layout state...
+2024-07-25 15:48:48 2024-07-25T20:48:48.902Z root INFO <<< Nothing to restore.
+2024-07-25 15:48:48 2024-07-25T20:48:48.933Z root INFO Initialize the workbench layout: 23.3 ms [Finished 4.571 s after frontend start]
+2024-07-25 15:48:48 2024-07-25T20:48:48.955Z root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2024-07-25 15:48:48 2024-07-25T20:48:48.988Z root INFO [779ca25b-79aa-4c1c-b01e-2ca6bf8812d6] Waiting for backend deployment: 132.5 ms [Finished 4.632 s after frontend start]
+2024-07-25 15:48:49 2024-07-25T20:48:49.495Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205) starting instance
+2024-07-25 15:48:50 2024-07-25T20:48:50.003Z root INFO [779ca25b-79aa-4c1c-b01e-2ca6bf8812d6] Sync of 23 plugins: 990.4 ms [Finished 5.623 s after frontend start]
+2024-07-25 15:48:50 2024-07-25T20:48:50.004Z root INFO [779ca25b-79aa-4c1c-b01e-2ca6bf8812d6] Loading plugin contributions
+2024-07-25 15:48:50 2024-07-25T20:48:50.004Z root INFO [779ca25b-79aa-4c1c-b01e-2ca6bf8812d6] Load contributions of 23 plugins: 25.0 ms [Finished 5.648 s after frontend start]
+2024-07-25 15:48:50 2024-07-25T20:48:50.112Z root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2024-07-25 15:48:50 2024-07-25T20:48:50.112Z root WARN a registered grammar configuration for 'cpp' language is overridden
+2024-07-25 15:48:50 Checking for update
+2024-07-25 15:48:50 Generated new staging user ID: 9a9e7169-5083-519a-9710-3a73d0219a17
+2024-07-25 15:48:50 2024-07-25T20:48:50.356Z root INFO Replace loading indicator with ready workbench UI (animation): 1169.4 ms [Finished 5.772 s after frontend start]
+2024-07-25 15:48:50 2024-07-25T20:48:50.356Z root INFO Changed application state from 'initialized_layout' to 'ready'.
+2024-07-25 15:48:50 2024-07-25T20:48:50.356Z root WARN Linked preference "workbench.colorCustomizations" not found.
+2024-07-25 15:48:50 2024-07-25T20:48:50.358Z root INFO Frontend application start: 4559.7 ms [Finished 6.587 s after backend start]
+2024-07-25 15:48:50 2024-07-25T20:48:50.689Z root ERROR ---- !!!SLOW!!! DURATION: search took 329.102 ms. Args: [{"type":"Updatable"}] ----
+2024-07-25 15:48:50 2024-07-25T20:48:50.701Z root INFO core-client-provider [platform-index] Downloading index: package_index.tar.bz2
+
+2024-07-25 15:48:50 2024-07-25T20:48:50.702Z root INFO core-client-provider [library-index] Downloading index: library_index.tar.bz2
+
+2024-07-25 15:48:50 2024-07-25T20:48:50.702Z daemon INFO time="2024-07-25T15:48:50-05:00" level=info msg="Updating libraries index"
+time="2024-07-25T15:48:50-05:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2024-07-25T15:48:50-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2024-07-25T15:48:50-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-07-25 15:48:50 2024-07-25T20:48:50.791Z root INFO ---- DURATION: search took 97.717 ms. Args: [{"query":"Arduino_BuiltIn"}] ----
+2024-07-25 15:48:50 2024-07-25T20:48:50.803Z root INFO >>> Starting boards package installation... {
+  id: 'arduino:avr',
+  name: 'Arduino AVR Boards',
+  author: 'Arduino',
+  availableVersions: [
+    '1.8.6',  '1.8.5',  '1.8.4',
+    '1.8.3',  '1.8.2',  '1.8.1',
+    '1.6.23', '1.6.22', '1.6.21',
+    '1.6.20', '1.6.19', '1.6.18',
+    '1.6.17', '1.6.16', '1.6.15',
+    '1.6.14', '1.6.13', '1.6.12',
+    '1.6.11', '1.6.10', '1.6.9',
+    '1.6.8',  '1.6.7',  '1.6.6',
+    '1.6.5',  '1.6.4',  '1.6.3',
+    '1.6.2'
+  ],
+  description: 'Arduino Yún, Arduino UNO, Arduino UNO Mini, Arduino UNO WiFi, Arduino Diecimila, Arduino Nano, Arduino Mega, Arduino Mega ADK, Arduino Leonardo, Arduino Leonardo Ethernet, Arduino Micro, Arduino Esplora, Arduino Mini, Arduino Ethernet, Arduino Fio, Arduino BT, Arduino LilyPad USB, Arduino LilyPad, Arduino Pro, Arduino ATMegaNG, Arduino Robot Control, Arduino Robot Motor, Arduino Gemma, Adafruit Circuit Playground, Arduino Yún Mini, Arduino Industrial 101, Linino One',
+  types: [ 'Arduino' ],
+  deprecated: false,
+  summary: 'Boards included in this package:',
+  installedVersion: undefined,
+  boards: [
+    { name: 'Arduino Yún', fqbn: '' },
+    { name: 'Arduino UNO', fqbn: '' },
+    { name: 'Arduino UNO Mini', fqbn: '' },
+    { name: 'Arduino UNO WiFi', fqbn: '' },
+    { name: 'Arduino Diecimila', fqbn: '' },
+    { name: 'Arduino Nano', fqbn: '' },
+    { name: 'Arduino Mega', fqbn: '' },
+    { name: 'Arduino Mega ADK', fqbn: '' },
+    { name: 'Arduino Leonardo', fqbn: '' },
+    { name: 'Arduino Leonardo Ethernet', fqbn: '' },
+    { name: 'Arduino Micro', fqbn: '' },
+    { name: 'Arduino Esplora', fqbn: '' },
+    { name: 'Arduino Mini', fqbn: '' },
+    { name: 'Arduino Ethernet', fqbn: '' },
+    { name: 'Arduino Fio', fqbn: '' },
+    { name: 'Arduino BT', fqbn: '' },
+    { name: 'Arduino LilyPad USB', fqbn: '' },
+    { name: 'Arduino LilyPad', fqbn: '' },
+    { name: 'Arduino Pro', fqbn: '' },
+    { name: 'Arduino ATMegaNG', fqbn: '' },
+    { name: 'Arduino Robot Control', fqbn: '' },
+    { name: 'Arduino Robot Motor', fqbn: '' },
+    { name: 'Arduino Gemma', fqbn: '' },
+    { name: 'Adafruit Circuit Playground', fqbn: '' },
+    { name: 'Arduino Yún Mini', fqbn: '' },
+    { name: 'Arduino Industrial 101', fqbn: '' },
+    { name: 'Linino One', fqbn: '' }
+  ],
+  moreInfoLink: 'http://www.arduino.cc/',
+  index: 0
+}
+2024-07-25 15:48:50 2024-07-25T20:48:50.804Z discovery-log INFO stop
+2024-07-25 15:48:50 2024-07-25T20:48:50.804Z discovery-log INFO >>> Stopping boards watcher...
+2024-07-25 15:48:50 2024-07-25T20:48:50.804Z discovery-log INFO Canceling boards watcher...
+2024-07-25 15:48:50 2024-07-25T20:48:50.804Z discovery-log INFO disposing requesting cancel
+2024-07-25 15:48:50 2024-07-25T20:48:50.804Z discovery-log INFO disposing canceled
+2024-07-25 15:48:50 2024-07-25T20:48:50.805Z discovery-log INFO error received
+2024-07-25 15:48:50 2024-07-25T20:48:50.805Z discovery-log INFO cancel error received!
+2024-07-25 15:48:50 2024-07-25T20:48:50.805Z discovery-log INFO stop received event: either end or cancel
+2024-07-25 15:48:50 2024-07-25T20:48:50.805Z discovery-log INFO stop stopped
+2024-07-25 15:48:50 2024-07-25T20:48:50.805Z discovery-log INFO received end
+2024-07-25 15:48:50 2024-07-25T20:48:50.808Z daemon INFO time="2024-07-25T15:48:50-05:00" level=info msg="Starting download" url="http://downloads.arduino.cc/tools/arduinoOTA-1.3.0-linux_amd64.tar.bz2"
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.linux as cortex-debug.armToolchainPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.osx as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.windows as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.linux as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.osx as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.windows as cortex-debug.JLinkGDBServerPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.openocdPath.linux as cortex-debug.openocdPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.openocdPath.osx as cortex-debug.openocdPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.openocdPath.windows as cortex-debug.openocdPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.linux as cortex-debug.pyocdPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.osx as cortex-debug.pyocdPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.windows as cortex-debug.pyocdPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.linux as cortex-debug.PEGDBServerPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.osx as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.windows as cortex-debug.PEGDBServerPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.890Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.stutilPath.linux as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.osx as cortex-debug.stutilPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.891Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.stutilPath.windows as cortex-debug.stutilPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.891Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.linux as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.osx as cortex-debug.stlinkPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.891Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.windows as cortex-debug.stlinkPath is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.891Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.linux as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.osx as cortex-debug.stm32cubeprogrammer is null
+2024-07-25 15:48:50 2024-07-25T20:48:50.891Z root ERROR [hosted-plugin: 9205] Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.windows as cortex-debug.stm32cubeprogrammer is null
+2024-07-25 15:48:50 Update for version 2.3.2 is not available (latest version: 2.3.2, downgrade is allowed).
+2024-07-25 15:48:50 2024-07-25T20:48:50.903Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): PluginManagerExtImpl/init()
+2024-07-25 15:48:50 2024-07-25T20:48:50.905Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-arduino-api@0.1.2 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.959Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(cortex-debug@1.5.1 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.960Z root INFO [hosted-plugin: 9205] Debugger contribution has been registered: cortex-debug
+2024-07-25 15:48:50 2024-07-25T20:48:50.960Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-arduino-tools@0.1.3 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.961Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(cpp@1.52.1 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.962Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(json@1.46.1 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.963Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(json-language-features@1.46.1 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.964Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-bg@1.48.3 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.964Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-cs@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.965Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-de@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.966Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-es@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.968Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-fr@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.968Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-hu@1.48.3 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.968Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-it@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.969Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-ja@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.969Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-ko@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.970Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-nl@1.48.3 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.970Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-pl@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.970Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-pt-BR@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.971Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-ru@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.971Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-tr@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.972Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-uk@1.48.3 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.972Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-zh-hans@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:50 2024-07-25T20:48:50.973Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): initializing(vscode-language-pack-zh-hant@1.80.0 with /home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/lib/backend/plugin-vscode-init)
+2024-07-25 15:48:51 2024-07-25T20:48:51.056Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): PluginManagerExtImpl/loadPlugin(/home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/plugins/vscode-arduino-api/extension/dist/extension.js)
+2024-07-25 15:48:51 2024-07-25T20:48:51.059Z root INFO [hosted-plugin: 9205] calling activation function on Arduino IDE API for VS Code extensions
+2024-07-25 15:48:51 2024-07-25T20:48:51.063Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): PluginManagerExtImpl/loadPlugin(/home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2024-07-25 15:48:51 2024-07-25T20:48:51.089Z root INFO [hosted-plugin: 9205] calling activation function on JSON Language Features (built-in)
+2024-07-25 15:48:51 2024-07-25T20:48:51.092Z root INFO [779ca25b-79aa-4c1c-b01e-2ca6bf8812d6] Starting plugins.
+2024-07-25 15:48:51 2024-07-25T20:48:51.110Z root INFO [hosted-plugin: 9205] PLUGIN_HOST(9205): PluginManagerExtImpl/loadPlugin(/home/sevansdev/Downloads/arduino-ide_2.3.2_Linux_64bit/resources/app/plugins/cortex-debug/extension/dist/extension.js)
+2024-07-25 15:48:51 2024-07-25T20:48:51.139Z root INFO [hosted-plugin: 9205] Debug configuration provider has been registered: cortex-debug, trigger: 1
+2024-07-25 15:48:51 2024-07-25T20:48:51.140Z root INFO [hosted-plugin: 9205] calling activation function on Cortex-Debug
+2024-07-25 15:48:51 2024-07-25T20:48:51.142Z root INFO [hosted-plugin: 9205] GDB server console created
+2024-07-25 15:48:51 2024-07-25T20:48:51.148Z root INFO [779ca25b-79aa-4c1c-b01e-2ca6bf8812d6] Start of 23 plugins: 1133.3 ms [Finished 6.794 s after frontend start]
+2024-07-25 15:48:51 2024-07-25T20:48:51.354Z daemon INFO time="2024-07-25T15:48:51-05:00" level=info msg="Starting download" url="http://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino7-x86_64-pc-linux-gnu.tar.bz2"
+2024-07-25 15:48:52 2024-07-25T20:48:52.541Z daemon INFO time="2024-07-25T15:48:52-05:00" level=info msg="Checking signature" index=/home/sevansdev/.arduino15/package_index.json signatureFile=/home/sevansdev/.arduino15/package_index.json.sig trusted=true
+2024-07-25 15:48:52 2024-07-25T20:48:52.543Z daemon INFO time="2024-07-25T15:48:52-05:00" level=info msg="Loading hardware from: /home/sevansdev/.arduino15/packages"
+2024-07-25 15:48:52 2024-07-25T20:48:52.543Z daemon INFO time="2024-07-25T15:48:52-05:00" level=info msg="Loading package builtin from: /home/sevansdev/.arduino15/packages/builtin"
+time="2024-07-25T15:48:52-05:00" level=info msg="Checking existence of 'tools' path: /home/sevansdev/.arduino15/packages/builtin/tools"
+time="2024-07-25T15:48:52-05:00" level=info msg="Loading tools from dir: /home/sevansdev/.arduino15/packages/builtin/tools"
+2024-07-25 15:48:52 2024-07-25T20:48:52.543Z daemon INFO time="2024-07-25T15:48:52-05:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+2024-07-25 15:48:52 2024-07-25T20:48:52.543Z daemon INFO time="2024-07-25T15:48:52-05:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+time="2024-07-25T15:48:52-05:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+2024-07-25 15:48:52 2024-07-25T20:48:52.543Z daemon INFO time="2024-07-25T15:48:52-05:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.1"
+2024-07-25 15:48:52 2024-07-25T20:48:52.543Z daemon INFO time="2024-07-25T15:48:52-05:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.14.1"
+2024-07-25 15:48:53 2024-07-25T20:48:53.479Z daemon INFO time="2024-07-25T15:48:53-05:00" level=info msg="Starting download" url="http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino17-x86_64-pc-linux-gnu.tar.bz2"
+2024-07-25 15:48:53 2024-07-25T20:48:53.885Z daemon INFO time="2024-07-25T15:48:53-05:00" level=info msg="Starting download" url="http://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2"
+2024-07-25 15:48:54 2024-07-25T20:48:54.439Z daemon INFO time="2024-07-25T15:48:54-05:00" level=info msg="Installing tool" Tool="arduino:arduinoOTA@1.3.0"
+2024-07-25 15:48:54 2024-07-25T20:48:54.829Z daemon INFO time="2024-07-25T15:48:54-05:00" level=info msg="Running tool post_install script" Tool="arduino:arduinoOTA@1.3.0"
+time="2024-07-25T15:48:54-05:00" level=info msg="Tool installed" Tool="arduino:arduinoOTA@1.3.0"
+time="2024-07-25T15:48:54-05:00" level=info msg="Installing tool" Tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+2024-07-25 15:49:02 2024-07-25T20:49:02.532Z daemon INFO time="2024-07-25T15:49:02-05:00" level=info msg="Running tool post_install script" Tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2024-07-25T15:49:02-05:00" level=info msg="Tool installed" Tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2024-07-25T15:49:02-05:00" level=info msg="Installing tool" Tool="arduino:avrdude@6.3.0-arduino17"
+2024-07-25 15:49:02 2024-07-25T20:49:02.573Z daemon INFO time="2024-07-25T15:49:02-05:00" level=info msg="Running tool post_install script" Tool="arduino:avrdude@6.3.0-arduino17"
+time="2024-07-25T15:49:02-05:00" level=info msg="Tool installed" Tool="arduino:avrdude@6.3.0-arduino17"
+time="2024-07-25T15:49:02-05:00" level=info msg="Installing platform" platform="arduino:avr@1.8.6"
+2024-07-25 15:49:03 2024-07-25T20:49:03.593Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Running post_install script" platform="arduino:avr@1.8.6"
+time="2024-07-25T15:49:03-05:00" level=info msg="Platform installed" platform="arduino:avr@1.8.6"
+2024-07-25 15:49:03 2024-07-25T20:49:03.595Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="sending command QUIT to discovery builtin:serial-discovery"
+time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:serial-discovery received message type: quit, message: OK"
+time="2024-07-25T15:49:03-05:00" level=info msg="killing discovery builtin:serial-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="Discovery event channel closed builtin:serial-discovery. Exiting goroutine."
+time="2024-07-25T15:49:03-05:00" level=info msg="killed discovery builtin:serial-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="Closed and removed discovery builtin:serial-discovery"
+time="2024-07-25T15:49:03-05:00" level=info msg="sending command QUIT to discovery builtin:mdns-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.595Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: quit, message: OK"
+time="2024-07-25T15:49:03-05:00" level=info msg="killing discovery builtin:mdns-discovery process"
+2024-07-25 15:49:03 2024-07-25T20:49:03.595Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Discovery event channel closed builtin:mdns-discovery. Exiting goroutine."
+2024-07-25 15:49:03 2024-07-25T20:49:03.596Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="killed discovery builtin:mdns-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="Closed and removed discovery builtin:mdns-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.597Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="starting discovery builtin:serial-discovery process"
+2024-07-25 15:49:03 2024-07-25T20:49:03.597Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:serial-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.599Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+2024-07-25 15:49:03 2024-07-25T20:49:03.599Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.601Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+2024-07-25 15:49:03 2024-07-25T20:49:03.601Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="starting discovery builtin:mdns-discovery process"
+2024-07-25 15:49:03 2024-07-25T20:49:03.602Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:mdns-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.605Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-07-25T15:49:03-05:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.605Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+2024-07-25 15:49:03 2024-07-25T20:49:03.605Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Loading libraries index file" index=/home/sevansdev/.arduino15/library_index.json
+2024-07-25 15:49:03 2024-07-25T20:49:03.606Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Checking signature" index=/home/sevansdev/.arduino15/package_index.json signatureFile=/home/sevansdev/.arduino15/package_index.json.sig trusted=true
+2024-07-25 15:49:03 2024-07-25T20:49:03.609Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Loading hardware from: /home/sevansdev/.arduino15/packages"
+2024-07-25 15:49:03 2024-07-25T20:49:03.609Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Loading package arduino from: /home/sevansdev/.arduino15/packages/arduino/hardware"
+2024-07-25 15:49:03 2024-07-25T20:49:03.610Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Missing signature file" index=/home/sevansdev/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json
+2024-07-25 15:49:03 2024-07-25T20:49:03.611Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2024-07-25T15:49:03-05:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+time="2024-07-25T15:49:03-05:00" level=info msg="Checking existence of 'tools' path: /home/sevansdev/.arduino15/packages/arduino/tools"
+2024-07-25 15:49:03 2024-07-25T20:49:03.612Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Loading tools from dir: /home/sevansdev/.arduino15/packages/arduino/tools"
+time="2024-07-25T15:49:03-05:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2024-07-25T15:49:03-05:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2024-07-25T15:49:03-05:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+time="2024-07-25T15:49:03-05:00" level=info msg="Loading package builtin from: /home/sevansdev/.arduino15/packages/builtin"
+2024-07-25 15:49:03 2024-07-25T20:49:03.612Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Checking existence of 'tools' path: /home/sevansdev/.arduino15/packages/builtin/tools"
+time="2024-07-25T15:49:03-05:00" level=info msg="Loading tools from dir: /home/sevansdev/.arduino15/packages/builtin/tools"
+2024-07-25 15:49:03 2024-07-25T20:49:03.612Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+2024-07-25 15:49:03 2024-07-25T20:49:03.612Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+2024-07-25 15:49:03 2024-07-25T20:49:03.612Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+2024-07-25 15:49:03 2024-07-25T20:49:03.612Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.1"
+2024-07-25 15:49:03 2024-07-25T20:49:03.612Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.14.1"
+2024-07-25 15:49:03 2024-07-25T20:49:03.829Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/.arduino15/libraries location=ide
+time="2024-07-25T15:49:03-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/Arduino/libraries location=user
+2024-07-25 15:49:03 2024-07-25T20:49:03.831Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="sending command QUIT to discovery builtin:mdns-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.832Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: quit, message: OK"
+time="2024-07-25T15:49:03-05:00" level=info msg="killing discovery builtin:mdns-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="Discovery event channel closed builtin:mdns-discovery. Exiting goroutine."
+time="2024-07-25T15:49:03-05:00" level=info msg="killed discovery builtin:mdns-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="Closed and removed discovery builtin:mdns-discovery"
+time="2024-07-25T15:49:03-05:00" level=info msg="sending command QUIT to discovery builtin:serial-discovery"
+time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:serial-discovery received message type: quit, message: OK"
+time="2024-07-25T15:49:03-05:00" level=info msg="killing discovery builtin:serial-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="Discovery event channel closed builtin:serial-discovery. Exiting goroutine."
+2024-07-25 15:49:03 2024-07-25T20:49:03.832Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="killed discovery builtin:serial-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="Closed and removed discovery builtin:serial-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.832Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="starting discovery builtin:serial-discovery process"
+2024-07-25 15:49:03 2024-07-25T20:49:03.833Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:serial-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.836Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-07-25T15:49:03-05:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+2024-07-25 15:49:03 2024-07-25T20:49:03.841Z daemon INFO time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+time="2024-07-25T15:49:03-05:00" level=info msg="starting discovery builtin:mdns-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2024-07-25T15:49:03-05:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:mdns-discovery"
+time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-07-25T15:49:03-05:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+time="2024-07-25T15:49:03-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+time="2024-07-25T15:49:03-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-07-25T15:49:03-05:00" level=info msg="Loading libraries index file" index=/home/sevansdev/.arduino15/library_index.json
+2024-07-25 15:49:04 2024-07-25T20:49:04.045Z daemon INFO time="2024-07-25T15:49:04-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/.arduino15/libraries location=ide
+time="2024-07-25T15:49:04-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/Arduino/libraries location=user
+2024-07-25 15:49:04 2024-07-25T20:49:04.048Z discovery-log INFO start
+2024-07-25 15:49:04 2024-07-25T20:49:04.048Z discovery-log INFO start new deferred
+2024-07-25 15:49:04 2024-07-25T20:49:04.048Z discovery-log INFO start resolved watching
+2024-07-25 15:49:04 2024-07-25T20:49:04.082Z root INFO <<< Boards package installation done. {
+  id: 'arduino:avr',
+  name: 'Arduino AVR Boards',
+  author: 'Arduino',
+  availableVersions: [
+    '1.8.6',  '1.8.5',  '1.8.4',
+    '1.8.3',  '1.8.2',  '1.8.1',
+    '1.6.23', '1.6.22', '1.6.21',
+    '1.6.20', '1.6.19', '1.6.18',
+    '1.6.17', '1.6.16', '1.6.15',
+    '1.6.14', '1.6.13', '1.6.12',
+    '1.6.11', '1.6.10', '1.6.9',
+    '1.6.8',  '1.6.7',  '1.6.6',
+    '1.6.5',  '1.6.4',  '1.6.3',
+    '1.6.2'
+  ],
+  description: 'Arduino Yún, Arduino UNO, Arduino UNO Mini, Arduino UNO WiFi, Arduino Diecimila, Arduino Nano, Arduino Mega, Arduino Mega ADK, Arduino Leonardo, Arduino Leonardo Ethernet, Arduino Micro, Arduino Esplora, Arduino Mini, Arduino Ethernet, Arduino Fio, Arduino BT, Arduino LilyPad USB, Arduino LilyPad, Arduino Pro, Arduino ATMegaNG, Arduino Robot Control, Arduino Robot Motor, Arduino Gemma, Adafruit Circuit Playground, Arduino Yún Mini, Arduino Industrial 101, Linino One',
+  types: [ 'Arduino' ],
+  deprecated: false,
+  summary: 'Boards included in this package:',
+  installedVersion: undefined,
+  boards: [
+    { name: 'Arduino Yún', fqbn: '' },
+    { name: 'Arduino UNO', fqbn: '' },
+    { name: 'Arduino UNO Mini', fqbn: '' },
+    { name: 'Arduino UNO WiFi', fqbn: '' },
+    { name: 'Arduino Diecimila', fqbn: '' },
+    { name: 'Arduino Nano', fqbn: '' },
+    { name: 'Arduino Mega', fqbn: '' },
+    { name: 'Arduino Mega ADK', fqbn: '' },
+    { name: 'Arduino Leonardo', fqbn: '' },
+    { name: 'Arduino Leonardo Ethernet', fqbn: '' },
+    { name: 'Arduino Micro', fqbn: '' },
+    { name: 'Arduino Esplora', fqbn: '' },
+    { name: 'Arduino Mini', fqbn: '' },
+    { name: 'Arduino Ethernet', fqbn: '' },
+    { name: 'Arduino Fio', fqbn: '' },
+    { name: 'Arduino BT', fqbn: '' },
+    { name: 'Arduino LilyPad USB', fqbn: '' },
+    { name: 'Arduino LilyPad', fqbn: '' },
+    { name: 'Arduino Pro', fqbn: '' },
+    { name: 'Arduino ATMegaNG', fqbn: '' },
+    { name: 'Arduino Robot Control', fqbn: '' },
+    { name: 'Arduino Robot Motor', fqbn: '' },
+    { name: 'Arduino Gemma', fqbn: '' },
+    { name: 'Adafruit Circuit Playground', fqbn: '' },
+    { name: 'Arduino Yún Mini', fqbn: '' },
+    { name: 'Arduino Industrial 101', fqbn: '' },
+    { name: 'Linino One', fqbn: '' }
+  ],
+  moreInfoLink: 'http://www.arduino.cc/',
+  index: 0
+}
+2024-07-25 15:49:04 2024-07-25T20:49:04.088Z root INFO >>> Starting library package installation... {
+  name: 'Arduino_BuiltIn',
+  exampleUris: [],
+  location: 0,
+  installedVersion: undefined,
+  author: 'Arduino',
+  availableVersions: [ '1.0.0' ],
+  includes: [],
+  description: 'The sole purpose of this library is to install the standard Arduino libraries which are typically included with the Arduino IDE.',
+  moreInfoLink: 'https://github.com/arduino-libraries/Arduino_BuiltIn',
+  summary: 'Shell Arduino library to provide the standard built-in libraries',
+  category: 'Other',
+  types: [ 'Arduino' ],
+  index: 0
+}
+2024-07-25 15:49:04 2024-07-25T20:49:04.088Z discovery-log INFO stop
+2024-07-25 15:49:04 2024-07-25T20:49:04.088Z discovery-log INFO >>> Stopping boards watcher...
+2024-07-25 15:49:04 2024-07-25T20:49:04.088Z discovery-log INFO Canceling boards watcher...
+2024-07-25 15:49:04 2024-07-25T20:49:04.088Z discovery-log INFO disposing requesting cancel
+2024-07-25 15:49:04 2024-07-25T20:49:04.088Z discovery-log INFO disposing canceled
+2024-07-25 15:49:04 2024-07-25T20:49:04.090Z discovery-log INFO error received
+2024-07-25 15:49:04 2024-07-25T20:49:04.090Z discovery-log INFO cancel error received!
+2024-07-25 15:49:04 2024-07-25T20:49:04.090Z discovery-log INFO stop received event: either end or cancel
+2024-07-25 15:49:04 2024-07-25T20:49:04.090Z discovery-log INFO stop stopped
+2024-07-25 15:49:04 2024-07-25T20:49:04.090Z discovery-log INFO received end
+2024-07-25 15:49:04 2024-07-25T20:49:04.133Z daemon INFO time="2024-07-25T15:49:04-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/arduino-libraries/LiquidCrystal-1.0.7.zip?query=depends"
+2024-07-25 15:49:04 2024-07-25T20:49:04.353Z daemon INFO time="2024-07-25T15:49:04-05:00" level=info msg="Installing library" library=LiquidCrystal@1.0.7
+2024-07-25 15:49:04 2024-07-25T20:49:04.355Z daemon INFO time="2024-07-25T15:49:04-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Stepper-1.1.3.zip?query=depends"
+2024-07-25 15:49:04 2024-07-25T20:49:04.584Z daemon INFO time="2024-07-25T15:49:04-05:00" level=info msg="Installing library" library=Stepper@1.1.3
+2024-07-25 15:49:04 2024-07-25T20:49:04.586Z daemon INFO time="2024-07-25T15:49:04-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Ethernet-2.0.2.zip?query=depends"
+2024-07-25 15:49:04 2024-07-25T20:49:04.887Z daemon INFO time="2024-07-25T15:49:04-05:00" level=info msg="Installing library" library=Ethernet@2.0.2
+2024-07-25 15:49:04 2024-07-25T20:49:04.895Z daemon INFO time="2024-07-25T15:49:04-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_BuiltIn-1.0.0.zip?query=install-builtin"
+2024-07-25 15:49:05 2024-07-25T20:49:05.172Z daemon INFO time="2024-07-25T15:49:05-05:00" level=info msg="Installing library" library=Arduino_BuiltIn@1.0.0
+2024-07-25 15:49:05 2024-07-25T20:49:05.174Z daemon INFO time="2024-07-25T15:49:05-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Keyboard-1.0.6.zip?query=depends"
+2024-07-25 15:49:05 2024-07-25T20:49:05.360Z daemon INFO time="2024-07-25T15:49:05-05:00" level=info msg="Installing library" library=Keyboard@1.0.6
+2024-07-25 15:49:05 2024-07-25T20:49:05.366Z daemon INFO time="2024-07-25T15:49:05-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Servo-1.2.2.zip?query=depends"
+2024-07-25 15:49:05 2024-07-25T20:49:05.725Z daemon INFO time="2024-07-25T15:49:05-05:00" level=info msg="Installing library" library=Servo@1.2.2
+2024-07-25 15:49:05 2024-07-25T20:49:05.738Z daemon INFO time="2024-07-25T15:49:05-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/arduino-libraries/TFT-1.0.6.zip?query=depends"
+2024-07-25 15:49:05 2024-07-25T20:49:05.962Z daemon INFO time="2024-07-25T15:49:05-05:00" level=info msg="Installing library" library=TFT@1.0.6
+2024-07-25 15:49:05 2024-07-25T20:49:05.971Z daemon INFO time="2024-07-25T15:49:05-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/firmata/Firmata-2.5.9.zip?query=depends"
+2024-07-25 15:49:06 2024-07-25T20:49:06.223Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Installing library" library=Firmata@2.5.9
+2024-07-25 15:49:06 2024-07-25T20:49:06.266Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/arduino-libraries/SD-1.3.0.zip?query=depends"
+2024-07-25 15:49:06 2024-07-25T20:49:06.479Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Installing library" library=SD@1.3.0
+2024-07-25 15:49:06 2024-07-25T20:49:06.488Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Mouse-1.0.1.zip?query=depends"
+2024-07-25 15:49:06 2024-07-25T20:49:06.691Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Installing library" library=Mouse@1.0.1
+2024-07-25 15:49:06 2024-07-25T20:49:06.706Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Checking signature" index=/home/sevansdev/.arduino15/package_index.json signatureFile=/home/sevansdev/.arduino15/package_index.json.sig trusted=true
+2024-07-25 15:49:06 2024-07-25T20:49:06.708Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Loading hardware from: /home/sevansdev/.arduino15/packages"
+2024-07-25 15:49:06 2024-07-25T20:49:06.708Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Loading package arduino from: /home/sevansdev/.arduino15/packages/arduino/hardware"
+2024-07-25 15:49:06 2024-07-25T20:49:06.709Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Missing signature file" index=/home/sevansdev/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json
+2024-07-25 15:49:06 2024-07-25T20:49:06.711Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2024-07-25T15:49:06-05:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+time="2024-07-25T15:49:06-05:00" level=info msg="Checking existence of 'tools' path: /home/sevansdev/.arduino15/packages/arduino/tools"
+time="2024-07-25T15:49:06-05:00" level=info msg="Loading tools from dir: /home/sevansdev/.arduino15/packages/arduino/tools"
+2024-07-25 15:49:06 2024-07-25T20:49:06.711Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2024-07-25T15:49:06-05:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2024-07-25T15:49:06-05:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+time="2024-07-25T15:49:06-05:00" level=info msg="Loading package builtin from: /home/sevansdev/.arduino15/packages/builtin"
+2024-07-25 15:49:06 2024-07-25T20:49:06.711Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Checking existence of 'tools' path: /home/sevansdev/.arduino15/packages/builtin/tools"
+time="2024-07-25T15:49:06-05:00" level=info msg="Loading tools from dir: /home/sevansdev/.arduino15/packages/builtin/tools"
+2024-07-25 15:49:06 2024-07-25T20:49:06.711Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2024-07-25T15:49:06-05:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+time="2024-07-25T15:49:06-05:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+time="2024-07-25T15:49:06-05:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.1"
+2024-07-25 15:49:06 2024-07-25T20:49:06.712Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.14.1"
+time="2024-07-25T15:49:06-05:00" level=info msg="sending command QUIT to discovery builtin:serial-discovery"
+2024-07-25 15:49:06 2024-07-25T20:49:06.712Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="from discovery builtin:serial-discovery received message type: quit, message: OK"
+2024-07-25 15:49:06 2024-07-25T20:49:06.712Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="killing discovery builtin:serial-discovery process"
+time="2024-07-25T15:49:06-05:00" level=info msg="Discovery event channel closed builtin:serial-discovery. Exiting goroutine."
+2024-07-25 15:49:06 2024-07-25T20:49:06.713Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="killed discovery builtin:serial-discovery process"
+time="2024-07-25T15:49:06-05:00" level=info msg="Closed and removed discovery builtin:serial-discovery"
+time="2024-07-25T15:49:06-05:00" level=info msg="sending command QUIT to discovery builtin:mdns-discovery"
+2024-07-25 15:49:06 2024-07-25T20:49:06.713Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: quit, message: OK"
+2024-07-25 15:49:06 2024-07-25T20:49:06.713Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="killing discovery builtin:mdns-discovery process"
+2024-07-25 15:49:06 2024-07-25T20:49:06.713Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Discovery event channel closed builtin:mdns-discovery. Exiting goroutine."
+2024-07-25 15:49:06 2024-07-25T20:49:06.714Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="killed discovery builtin:mdns-discovery process"
+time="2024-07-25T15:49:06-05:00" level=info msg="Closed and removed discovery builtin:mdns-discovery"
+2024-07-25 15:49:06 2024-07-25T20:49:06.714Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="starting discovery builtin:serial-discovery process"
+2024-07-25 15:49:06 2024-07-25T20:49:06.714Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2024-07-25T15:49:06-05:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:serial-discovery"
+2024-07-25 15:49:06 2024-07-25T20:49:06.716Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+2024-07-25 15:49:06 2024-07-25T20:49:06.716Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+2024-07-25 15:49:06 2024-07-25T20:49:06.720Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+2024-07-25 15:49:06 2024-07-25T20:49:06.720Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="starting discovery builtin:mdns-discovery process"
+2024-07-25 15:49:06 2024-07-25T20:49:06.720Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2024-07-25T15:49:06-05:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:mdns-discovery"
+2024-07-25 15:49:06 2024-07-25T20:49:06.723Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-07-25T15:49:06-05:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+2024-07-25 15:49:06 2024-07-25T20:49:06.724Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+time="2024-07-25T15:49:06-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-07-25T15:49:06-05:00" level=info msg="Loading libraries index file" index=/home/sevansdev/.arduino15/library_index.json
+2024-07-25 15:49:06 2024-07-25T20:49:06.913Z daemon INFO time="2024-07-25T15:49:06-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/.arduino15/libraries location=ide
+time="2024-07-25T15:49:06-05:00" level=info msg="Adding libraries dir" dir=/home/sevansdev/Arduino/libraries location=user
+2024-07-25 15:49:06 2024-07-25T20:49:06.919Z discovery-log INFO start
+2024-07-25 15:49:06 2024-07-25T20:49:06.919Z discovery-log INFO start new deferred
+2024-07-25 15:49:06 2024-07-25T20:49:06.920Z discovery-log INFO start resolved watching
+2024-07-25 15:49:07 2024-07-25T20:49:07.340Z root ERROR ---- !!!SLOW!!! DURATION: search took 420.160 ms. Args: [{}] ----
+2024-07-25 15:49:07 2024-07-25T20:49:07.340Z root INFO <<< Library package installation done. {
+  name: 'Arduino_BuiltIn',
+  exampleUris: [],
+  location: 0,
+  installedVersion: undefined,
+  author: 'Arduino',
+  availableVersions: [ '1.0.0' ],
+  includes: [],
+  description: 'The sole purpose of this library is to install the standard Arduino libraries which are typically included with the Arduino IDE.',
+  moreInfoLink: 'https://github.com/arduino-libraries/Arduino_BuiltIn',
+  summary: 'Shell Arduino library to provide the standard built-in libraries',
+  category: 'Other',
+  types: [ 'Arduino' ],
+  index: 0
+}
+2024-07-25 15:51:00 2024-07-25T20:51:00.437Z daemon INFO time="2024-07-25T15:51:00-05:00" level=info msg="from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0"
+2024-07-25 15:51:00 2024-07-25T20:51:00.732Z discovery-log INFO {"eventType":"add","port":{"matchingBoardsList":[],"port":{"address":"/dev/ttyACM0","label":"/dev/ttyACM0","protocol":"serial","protocolLabel":"Serial Port (USB)","propertiesMap":[["pid","0x374e"],["serialNumber","001D003F3133510936303739"],["vid","0x0483"]],"hardwareId":"001D003F3133510936303739"}},"error":""}
+2024-07-25 15:55:19 isTempSketch: true. Input was /tmp/.arduinoIDE-unsaved2024625-9063-11dvaz5.cnpz/sketch_jul25a
+2024-07-25 15:55:19 Ignored marking workspace as a closed sketch. The sketch was detected as temporary. Workspace URI: file:///tmp/.arduinoIDE-unsaved2024625-9063-11dvaz5.cnpz/sketch_jul25a.
+2024-07-25 15:55:19 isTempSketch: true. Input was /tmp/.arduinoIDE-unsaved2024625-9063-11dvaz5.cnpz/sketch_jul25a
+2024-07-25 15:55:19 Ignored marking workspace as a closed sketch. The sketch was detected as temporary. Workspace URI: file:///tmp/.arduinoIDE-unsaved2024625-9063-11dvaz5.cnpz/sketch_jul25a.
+2024-07-25 15:55:19 Closing channel on service path '/services/electron-window'.
+2024-07-25 15:55:19 Closing channel on service path '/services/ide-updater'.
+2024-07-25 15:55:19 Stored workspaces roots: 
+2024-07-25 15:55:19 No sketches were scheduled for deletion.

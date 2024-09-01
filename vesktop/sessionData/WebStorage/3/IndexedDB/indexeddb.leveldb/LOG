@@ -1,0 +1,18 @@
+2024/07/31-00:43:52.070 119e Creating DB /home/sevansdev/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb since it was missing.
+2024/07/31-00:43:52.079 119e Reusing MANIFEST /home/sevansdev/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/07/31-00:43:52.113 11b1 Level-0 table #5: started
+2024/07/31-00:43:52.118 11b1 Level-0 table #5: 712 bytes OK
+2024/07/31-00:43:52.125 11b1 Delete type=0 #3
+2024/07/31-00:43:52.125 119e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/31-00:44:17.956 119f Level-0 table #7: started
+2024/07/31-00:44:17.958 119f Level-0 table #7: 1997 bytes OK
+2024/07/31-00:44:17.964 119f Delete type=0 #4
+2024/07/31-00:44:17.964 119f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/07/31-00:44:17.964 119f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x05\x00q\x00u\x00e\x00u\x00e' @ 103 : 1
+2024/07/31-00:44:17.964 119f Compacting 1@1 + 1@2 files
+2024/07/31-00:44:17.968 119f Generated table #8@1: 34 keys, 920 bytes
+2024/07/31-00:44:17.968 119f Compacted 1@1 + 1@2 files => 920 bytes
+2024/07/31-00:44:17.972 119f compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/07/31-00:44:17.973 119f Delete type=2 #7
+2024/07/31-00:44:17.973 119f Delete type=2 #5
+2024/07/31-00:44:17.973 119f Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x05\x00q\x00u\x00e\x00u\x00e' @ 103 : 1 .. (end); will stop at (end)

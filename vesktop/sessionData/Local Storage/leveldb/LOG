@@ -1,0 +1,39 @@
+2024/08/29-16:26:40.988 18b2 Reusing MANIFEST /home/sevansdev/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/08/29-16:26:41.011 18b2 Recovering log #7017
+2024/08/29-16:26:41.012 18b2 Reusing old log /home/sevansdev/.config/vesktop/sessionData/Local Storage/leveldb/007017.log 
+2024/08/29-16:28:41.761 18b3 Level-0 table #7021: started
+2024/08/29-16:28:41.769 18b3 Level-0 table #7021: 231332 bytes OK
+2024/08/29-16:28:41.776 18b3 Delete type=0 #7017
+2024/08/29-16:42:11.044 18b3 Level-0 table #7023: started
+2024/08/29-16:42:11.050 18b3 Level-0 table #7023: 38103 bytes OK
+2024/08/29-16:42:11.057 18b3 Delete type=0 #7020
+2024/08/29-16:42:11.057 18b3 Compacting 4@0 + 1@1 files
+2024/08/29-16:42:11.072 18b3 Generated table #7024@0: 97 keys, 271030 bytes
+2024/08/29-16:42:11.072 18b3 Compacted 4@0 + 1@1 files => 271030 bytes
+2024/08/29-16:42:11.077 18b3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/29-16:42:11.077 18b3 Delete type=2 #7021
+2024/08/29-16:42:11.078 18b3 Delete type=2 #7016
+2024/08/29-16:42:11.078 18b3 Delete type=2 #7018
+2024/08/29-16:42:11.078 18b3 Delete type=2 #7014
+2024/08/29-16:42:11.078 18b3 Delete type=2 #7023
+2024/08/29-16:58:03.110 18b3 Level-0 table #7026: started
+2024/08/29-16:58:03.116 18b3 Level-0 table #7026: 28371 bytes OK
+2024/08/29-16:58:03.121 18b3 Delete type=0 #7022
+2024/08/29-18:40:13.089 18b3 Level-0 table #7028: started
+2024/08/29-18:40:13.101 18b3 Level-0 table #7028: 224722 bytes OK
+2024/08/29-18:40:13.107 18b3 Delete type=0 #7025
+2024/08/29-18:44:21.203 18b3 Level-0 table #7030: started
+2024/08/29-18:44:21.213 18b3 Level-0 table #7030: 217723 bytes OK
+2024/08/29-18:44:21.219 18b3 Delete type=0 #7027
+2024/08/29-18:48:21.341 18b3 Level-0 table #7032: started
+2024/08/29-18:48:21.350 18b3 Level-0 table #7032: 221494 bytes OK
+2024/08/29-18:48:21.356 18b3 Delete type=0 #7029
+2024/08/29-18:48:21.356 18b3 Compacting 4@0 + 1@1 files
+2024/08/29-18:48:21.368 18b3 Generated table #7033@0: 97 keys, 273039 bytes
+2024/08/29-18:48:21.368 18b3 Compacted 4@0 + 1@1 files => 273039 bytes
+2024/08/29-18:48:21.373 18b3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/29-18:48:21.374 18b3 Delete type=2 #7028
+2024/08/29-18:48:21.374 18b3 Delete type=2 #7026
+2024/08/29-18:48:21.374 18b3 Delete type=2 #7024
+2024/08/29-18:48:21.374 18b3 Delete type=2 #7032
+2024/08/29-18:48:21.374 18b3 Delete type=2 #7030

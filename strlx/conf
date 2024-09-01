@@ -1,0 +1,13 @@
+default config for strlx
+ascii-tux
+inf bold basics
+reset
+inf string
+inf dr distro
+inf red hostname
+inf yellow shell
+inf green kernel
+inf cyan cpu
+inf blue uptime
+inf purple memory
+

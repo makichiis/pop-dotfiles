@@ -1,0 +1,10 @@
+[1]
+Active Tab Index=1
+Tab Count=2
+Tab Data 0=\x00\x00\x00\x02\x00\x00\x00\x00\x13baloosearch:/images\x00\x00\x00\x00\x01\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x06\xc6\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+Tab Data 1=\x00\x00\x00\x02\x00\x00\x00\x00/file:///home/sevansdev/.local/share/Trash/files\x00\x00\x00\x00\x01\x00\x00\x00Wfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Modded%20Forge%201.2-01-SNAPSHOT\x00\x00\x00\n\x00\x00\x00Gfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Forge%201.2-BETA\x00\x00\x00Lfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Forge%201.2-BETA-0001\x00\x00\x00Hfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Modded%201.4-Beta\x00\x00\x00Jfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Modded%201.4.1-Beta\x00\x00\x00Wfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Modded%20Forge%201.2-01-SNAPSHOT\x00\x00\x00Dfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Modded%20Lite\x00\x00\x00Qfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Modpack%20Forge%201.0-beta\x00\x00\x00Xfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Modpack%20Forge%201.0-beta%20DIST\x00\x00\x00Xfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Modpack%20Forge%201.1-beta%20DIST\x00\x00\x00Xfile:///home/sevansdev/.local/share/Trash/files/OKBH%20Modpack%20Forge%201.2-01-SNAPSHOT\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x01\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[WindowProperties1]
+ClassName=DolphinMainWindow
+MenuBar=Disabled
+ObjectName=Dolphin#1
